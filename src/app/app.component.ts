@@ -5,14 +5,13 @@ import { Component } from '@angular/core';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  public appPages = [
-    { title: 'Inbox', url: '/folder/Inbox', icon: 'mail' },
-    { title: 'Outbox', url: '/folder/Outbox', icon: 'paper-plane' },
-    { title: 'Favorites', url: '/folder/Favorites', icon: 'heart' },
-    { title: 'Archived', url: '/folder/Archived', icon: 'archive' },
-    { title: 'Trash', url: '/folder/Trash', icon: 'trash' },
-    { title: 'Spam', url: '/folder/Spam', icon: 'warning' },
+  appPages = [
+    { title: 'Domingo de Ramos', url: '/day/domingo-ramos' },
+    { title: 'Lunes Santo', url: '/day/lunes-santo' },
+    { title: 'Martes Santo', url: '/day/martes-santo' },
+    { title: 'Miercoles Santo', url: '/day/miercoles-santo'},
+    { title: 'Jueves Santo', url: '/day/jueves-santo'},
+    { title: 'Viernes Santo', url: '/day/viernes-santo'},
+    { title: 'Domingo Resurrección', url: '/day/domingo-resurreccion'},
   ];
-  public labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
-  constructor() {}
 }
