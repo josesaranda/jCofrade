@@ -14,8 +14,8 @@
     </ion-toolbar>
   </ion-header>
 
-  <div class="container">
-    <section *ngFor="let brotherhood of day?.brotherhoods">
+  <div class="container" *ngIf="day">
+    <section *ngFor="let brotherhood of day.brotherhoods">
       <h1 class="name">{{ brotherhood.name }}</h1>
       <h2 class="church">{{ brotherhood.church }}</h2>
       <p class="description">{{ brotherhood.itinerary }}</p>

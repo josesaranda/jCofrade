@@ -28,7 +28,7 @@ type BrotherHood = {
 }
 
 type Day = {
-  brotherhoods: BrotherHood
+  brotherhoods: BrotherHood[]
 }
 
 type DB = {
