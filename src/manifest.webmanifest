@@ -1,8 +1,8 @@
 {
   "name": "jCofrade",
   "short_name": "jCofrade",
-  "theme_color": "#2196f3",
-  "background_color": "#2196f3",
+  "theme_color": "#68002c",
+  "background_color": "#68002c",
   "display": "standalone",
   "id": "/",
   "scope": "/",
