@@ -1,3 +1,10 @@
+ion-list-header ion-title {
+  color: var(--ion-color-primary);
+  @media (prefers-color-scheme: dark) {
+    color: var(--ion-color-primary-contrast);
+  }
+}
+
 ion-menu ion-content {
   --background: var(--ion-item-background, var(--ion-background-color, #fff));
 }
@@ -51,6 +58,9 @@ ion-menu.md ion-item {
 
 ion-menu.md ion-item.selected {
   --background: rgba(var(--ion-color-primary-rgb), 0.14);
+  @media (prefers-color-scheme: dark) {
+    --background: rgba(255, 255, 255, 0.14);
+  }
 }
 
 ion-menu.md ion-item.selected ion-icon {
@@ -116,6 +126,9 @@ ion-note {
 
 ion-item.selected {
   --color: var(--ion-color-primary);
+  @media (prefers-color-scheme: dark) {
+    --color: var(--ion-color-primary-contrast);
+  }
 }
 
 ion-footer {

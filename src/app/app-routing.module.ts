@@ -8,6 +8,14 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'about',
+    loadChildren: () => import('./about/about.module').then(m => m.AboutPageModule)
+  },
+  {
+    path: 'now',
+    loadChildren: () => import('./now/now.module').then(m => m.NowPageModule)
+  },
+  {
     path: 'day/:id',
     loadChildren: () => import('./day/day.module').then(m => m.DayPageModule)
   }
