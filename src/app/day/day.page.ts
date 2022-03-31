@@ -24,7 +24,7 @@ type BrotherHood = {
   name: string
   church: string
   itinerary: string
-  datetimes: Schedule[]
+  datetimes: Schedule
 }
 
 type Day = {
@@ -62,6 +62,13 @@ export class DayPage implements OnInit {
       this.dataBase = result as DB
       this.day = this.dataBase[this.activatedRoute.snapshot.paramMap.get('id')]
     })
+  }
+
+  toHM(datetime: number) {
+    const date = new Date(datetime)
+    const hours = date.getHours() < 10 ? `0${date.getHours()}` : date.getHours()
+    const minutes = date.getMinutes() < 10 ? `0${date.getMinutes()}` : date.getMinutes()
+    return `${hours}:${minutes}`
   }
 
 }

@@ -19,6 +19,28 @@
       <h1 class="name">{{ brotherhood.name }}</h1>
       <h2 class="church">{{ brotherhood.church }}</h2>
       <p class="description">{{ brotherhood.itinerary }}</p>
+      <div class="schedules">
+        <div class="schedule">
+          <div class="datetime">{{toHM(brotherhood.datetimes.beggining)}}</div>
+          <div class="place">Salida</div>
+        </div>
+        <div class="schedule">
+          <div class="datetime">{{toHM(brotherhood.datetimes.tribune)}}</div>
+          <div class="place">Tribuna</div>
+        </div>
+        <div class="schedule">
+          <div class="datetime">{{toHM(brotherhood.datetimes.tower)}}</div>
+          <div class="place">Torre sur</div>
+        </div>
+        <div *ngIf="brotherhood.datetimes.cathedral" class="schedule">
+          <div class="datetime">{{toHM(brotherhood.datetimes.cathedral)}}</div>
+          <div class="place">Catedral</div>
+        </div>
+        <div class="schedule">
+          <div class="datetime">{{toHM(brotherhood.datetimes.finish)}}</div>
+          <div class="place">Encierro</div>
+        </div>
+      </div>
     </section>
   </div>
 </ion-content>
