@@ -8,6 +8,7 @@ import { NowPageRoutingModule } from './now-routing.module';
 
 import { NowPage } from './now.page';
 import { HttpClientModule } from '@angular/common/http';
+import { DBService } from '../db.service';
 
 @NgModule({
   imports: [
@@ -17,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
     NowPageRoutingModule,
     HttpClientModule
   ],
+  providers: [DBService],
   declarations: [NowPage]
 })
 export class NowPageModule { }
