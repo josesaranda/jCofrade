@@ -8,6 +8,7 @@ import { DayPageRoutingModule } from './day-routing.module';
 
 import { DayPage } from './day.page';
 import { HttpClientModule } from '@angular/common/http';
+import { DBService } from '../db.service';
 
 @NgModule({
   imports: [
@@ -17,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
     DayPageRoutingModule,
     HttpClientModule
   ],
+  providers: [DBService],
   declarations: [DayPage]
 })
 export class DayPageModule { }
