@@ -14,5 +14,10 @@
     </ion-toolbar>
   </ion-header>
 
-  <div class="container">Hello world</div>
+  <div class="container">
+    <div *ngFor="let brotherhood of brotherhoodsNow">
+      {{brotherhood.name}} {{brotherhood.schedule.name}}
+      {{brotherhood.schedule.datetime}}
+    </div>
+  </div>
 </ion-content>
