@@ -1,45 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { HttpClient } from '@angular/common/http';
-
-enum Days {
-  "domingo-ramos" = "Domingo de Ramos",
-  "lunes-santo" = "Lunes Santo",
-  "martes-santo" = "Martes Santo",
-  "miercoles-santo" = "Miercoles Santo",
-  "jueves-santo" = "Jueves Santo",
-  "viernes-santo" = "Viernes Santo",
-  "doming-resurreccion" = "Domingo Resurrección",
-}
-
-type Schedule = {
-  beggining: number
-  tribune: number
-  tower: number
-  cathedral: number
-  finish: number
-}
-
-type BrotherHood = {
-  name: string
-  church: string
-  itinerary: string
-  datetimes: Schedule
-}
-
-type Day = {
-  brotherhoods: BrotherHood[]
-}
-
-type DB = {
-  "domingo-ramos": Day
-  "lunes-santo": Day
-  "martes-santo": Day
-  "miercoles-santo": Day
-  "jueves-santo": Day
-  "viernes-santo": Day
-  "doming-resurreccion": Day
-}
+import { DB, Day, Days } from '../model';
+import { DBService } from '../db.service';
 
 @Component({
   selector: 'app-day',
@@ -53,13 +15,13 @@ export class DayPage implements OnInit {
 
   constructor(
     private activatedRoute: ActivatedRoute,
-    private httpClient: HttpClient
+    private dbService: DBService
   ) { }
 
   ngOnInit() {
     this.dayName = Days[this.activatedRoute.snapshot.paramMap.get('id')];
-    this.httpClient.get("assets/db.json").subscribe(result => {
-      this.dataBase = result as DB
+    this.dbService.getDB().subscribe(dataBase => {
+      this.dataBase = dataBase
       this.day = this.dataBase[this.activatedRoute.snapshot.paramMap.get('id')]
     })
   }
