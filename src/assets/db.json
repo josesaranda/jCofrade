@@ -2,7 +2,7 @@
   "domingo-ramos": {
     "brotherhoods": [
       {
-        "name": "REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica).",
+        "name": "REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica)",
         "church": "Iglesia de San Agustín (Centro)",
         "itinerary": "Casa Hermandad, Parras, Plazuela Santísimo Cristo de la Sangre, Guerrero, Dos Aceras, Puerta de Buenaventura, Plaza del Teatro, Comedias, Santa Lucía, Granada, Plaza de la Constitución, Tribuna, Larios, Martínez, Atarazanas, towergorda, Alameda, Plaza de la Marina, Molina Lario, tower Sur, Plaza del Obispo, Molina Lario, Santa María, San Agustín, Echegaray, Granada, Méndez Núñez, Plaza de Uncibay, Casapalma, Cárcer, Madre de Dios, Montaño, Plaza de Montaño, Guerrero, Plazuela Santísimo Cristo de la Sangre, Parras, Casa Hermandad.",
         "datetimes": {
@@ -13,30 +13,30 @@
         }
       },
       {
-        "name": "MARÍA SANTÍSIMA DE LÁGRIMAS Y FAVORES (RR.CC. FUSIONADAS).",
+        "name": "MARÍA SANTÍSIMA DE LÁGRIMAS Y FAVORES (RR.CC. FUSIONADAS)",
         "church": "Parroquia de San Juan Bautista (Centro)",
-        "itinerary": "Iglesia de San Juan, San Juan, Calderón de la Barca, Fernán González, Cisneros, Especerías, Plaza de la Constitución, Larios, Martínez, Atarazanas, towergorda, Alameda, Rotonda del Marqués de Larios, Plaza de la Marina, Molina Lario, Estación de Penitencia en la S.I.C.B., Patio de los Naranjos, Císter, San Agustín, Echegaray, Granada, Plaza del Siglo, Plaza del Carbón, Granada, Santa Lucía, Comedias, Nosquera, Carretería, Puerta Nueva, Compañía, Fajardo, Cisneros, Especerías, Nueva, Plaza de Félix Sáenz, San Juan, Iglesia de San Juan",
+        "itinerary": "Iglesia de San Juan, San Juan, Calderón de la Barca, Fernán González, Cisneros, Especerías, Plaza de la Constitución, Larios, Martínez, Atarazanas, towergorda, Alameda, Rotonda del Marqués de Larios, Plaza de la Marina, Molina Lario, Estación de Penitencia en la S.I.C.B., Patio de los Naranjos, Císter, San Agustín, Echegaray, Granada, Plaza del Siglo, Plaza del Carbón, Granada, Santa Lucía, Comedias, Nosquera, Carretería, Puerta Nueva, Compañía, Fajardo, Cisneros, Especerías, Nueva, Plaza de Félix Sáenz, San Juan, Iglesia de San Juan.",
         "datetimes": {
           "beggining": 1649596200000,
           "tribune": 1649598900000,
           "tower": 1649606100000,
-          "finish": 1649606100000
+          "finish": 1649625300000
         }
       },
       {
-        "name": "ANTIGUA, VENERABLE HERMANDAD Y COFRADÍA DE NAZARENOS DE NUESTRO PADRE JESÚS DE LA SOLEDAD, NEGACIONES Y LÁGRIMAS DE SAN PEDRO, MARÍA SANTÍSIMA DEL DULCE NOMBRE Y SAN FRANCISCO DE ASÍS.",
+        "name": "ANTIGUA, VENERABLE HERMANDAD Y COFRADÍA DE NAZARENOS DE NUESTRO PADRE JESÚS DE LA SOLEDAD, NEGACIONES Y LÁGRIMAS DE SAN PEDRO, MARÍA SANTÍSIMA DEL DULCE NOMBRE Y SAN FRANCISCO DE ASÍS",
         "church": "Parroquia de La Divina Pastora (Barrio de Capuchinos)",
         "itinerary": "Parroquia de la Divina Pastora, Plaza de Capuchinos, Carrera de Capuchinos, Dos Aceras, Carretería, Álamos, Puerta de Buenaventura, Plaza del Teatro, Comedias, Santa Lucía, Granada, Plaza de la Constitución, Tribuna, Larios, Martínez, Atarazanas, towergorda, Alameda Principal, Plaza de la Marina, Molina Lario, Postigo de los Abades, Estación de Penitencia en la S.I.C.B., Patio de los Naranjos, Císter, San Agustín, Echegaray, Granada, Méndez Núñez, Plaza de Uncibay, Casapalma, Cárcer, Álamos, Plaza de la Merced, Madre de Dios, Montaño, Plaza de Montaño, Dos Aceras, Carrera de Capuchinos, Plaza de Capuchinos, Parroquia de la Divina Pastora.",
         "datetimes": {
           "beggining": 1649593200000,
           "tribune": 1649601300000,
           "tower": 1649608500000,
-          "cathedral": 1649601900000,
+          "cathedral": 1649609100000,
           "finish": 1649621700000
         }
       },
       {
-        "name": "FERVOROSA HERMANDAD Y ANTIGUA COFRADÍA DEL DIVINO NOMBRE DE JESÚS NAZARENO DE SALUTACIÓN, MARÍA SANTÍSIMA DEL PATROCINIO REINA DE LOS CIELOS, SAN JUAN EVANGELISTA, SANTA MUJER VERÓNICA Y DE LA SANTA FAZ DE NUESTRO SEÑOR JESUCRISTO.",
+        "name": "FERVOROSA HERMANDAD Y ANTIGUA COFRADÍA DEL DIVINO NOMBRE DE JESÚS NAZARENO DE SALUTACIÓN, MARÍA SANTÍSIMA DEL PATROCINIO REINA DE LOS CIELOS, SAN JUAN EVANGELISTA, SANTA MUJER VERÓNICA Y DE LA SANTA FAZ DE NUESTRO SEÑOR JESUCRISTO",
         "church": "Parroquia de San Felipe (Barrio de Capuchino, Molinillo)",
         "itinerary": "Parroquia de la Santa Cruz y San Felipe Neri, Plazuela Cristo de la Sangre, Parras, Cruz del Molinillo, Ollerías, Huerto de Monjas, Ermitaño, Don Rodrigo, Álvarez, Convento RR. MM., Carmelitas, Álvarez, Marqués de Valdecañas, Plaza de San Francisco, Carretería, Nosquera, Comedias, Santa Lucía, Granada, Plaza de la Constitución, Tribuna, Larios, Martínez, Atarazanas, towergorda, Alameda, Plaza de la Marina, Molina Lario, Postigo de los Abades, Estación de Penitencia en la S.I.C.B., Patio de los Naranjos, Císter, San Agustín, Plazuela de Jesús Castellanos, Granada, Méndez Núñez, Plaza de Uncibay, Méndez Núñez, Plaza del Teatro, Puerta de Buenaventura, Álamos, Carretería, Dos Aceras, Plaza de Montaño, Guerrero, Gaona, Plazuela Cristo de la Sangre, Parroquia de la Santa Cruz y San Felipe Neri.",
         "datetimes": {
@@ -48,7 +48,7 @@
         }
       },
       {
-        "name": "VENERABLE HERMANDAD CARMELITA Y COFRADÍA DE NAZARENOS DEL SANTÍSIMO CRISTO DE LA HUMILDAD Y PACIENCIA, MARÍA SANTÍSIMA DE DOLORES Y ESPERANZA Y NUESTRA SEÑORA DE LA AURORA.",
+        "name": "VENERABLE HERMANDAD CARMELITA Y COFRADÍA DE NAZARENOS DEL SANTÍSIMO CRISTO DE LA HUMILDAD Y PACIENCIA, MARÍA SANTÍSIMA DE DOLORES Y ESPERANZA Y NUESTRA SEÑORA DE LA AURORA",
         "church": "Parroquia de San Vicente de Paúl (Barrio de Cruz de Humilladero)",
         "itinerary": "Casa Hermandad, Plazuela Virgen de Dolores y Esperanza, Reboul, La Unión, Edison, Mendívil, Senador La Serna, Ancha del Carmen, Cristo de la Expiración, Nazareno del Paso, Hilera, Puente de la Esperanza, Ordóñez, Prim, Plaza de Arriola, Sebastián Souvirón, Moreno Carbonero, Plaza de Camas, Cisneros, Especerías, Plaza de la Constitución, Larios, Martínez, Atarazanas, towergorda, Alameda Principal, Plaza de la Marina, Molina Lario, Estación de Penitencia en la S.I.C.B., Císter, Duque de la Victoria, Plaza del Carbón, Granada, Plaza de la Constitución, Nueva, Sagasta, Ordóñez, Alameda lateral sur, Pasaje Caparrós, Puente de la Misericordia, Avenida de la Aurora, Ancha del Carmen, Plaza de Toros Vieja, Senador Francisco Román, Mendívil, La Unión, Salvador Noriega, Plazuela Virgen de Dolores y Esperanza, Casa Hermandad.",
         "datetimes": {
@@ -56,7 +56,7 @@
           "tribune": 1649606400000,
           "tower": 1649613600000,
           "cathedral": 1649614200000,
-          "finish": 1649632200000
+          "finish": 1649631600000
         }
       },
       {
@@ -72,7 +72,7 @@
         }
       },
       {
-        "name": "HERMANDAD DEL SANTÍSIMO CRISTO DE LA ESPERANZA EN SU GRAN AMOR Y MARÍA SANTÍSIMA DE LA SALUD.",
+        "name": "HERMANDAD DEL SANTÍSIMO CRISTO DE LA ESPERANZA EN SU GRAN AMOR Y MARÍA SANTÍSIMA DE LA SALUD",
         "church": "Parroquia de San Pablo (Barrio de la Trinidad)",
         "itinerary": "Iglesia de San Pablo, Plaza de San Pablo, Zamorano, Tiro, Trinidad, Rampa de la Aurora, Puente de la Aurora, Pasillo de Santa Isabel, Plaza de Arriola, Sagasta, Plaza de Félix Sáenz, Nueva, Especerías, Plaza de la Constitución, Tribuna, Larios, Martínez, Atarazanas, towergorda, Alameda, Plaza de la Marina, Molina Lario, Postigo de los Abades, Estación de Penitencia en la S.I.C.B., Patio de los Naranjos, San Agustín, Echegaray, Plaza del Siglo, Plaza del Carbón, Granada, Plaza de la Constitución, Especerías, Cisneros, Pasillo de Santa Isabel, Puente de la Aurora, Rampa de la Aurora, Trinidad, Tiro, Zamorano, Plaza de San Pablo, Iglesia de San Pablo.",
         "datetimes": {
@@ -84,7 +84,7 @@
         }
       },
       {
-        "name": "PONTIFICIA, REAL, MUY ILUSTRE Y VENERABLE ARCHICOFRADÍA SACRAMENTAL Y SERÁFICA DE NUESTRO PADRE JESÚS ORANDO EN EL HUERTO, NUESTRA SEÑORA DE LA CONCEPCIÓN, SAN JUAN EVANGELISTA Y NUESTRA SEÑORA DE LA OLIVA.",
+        "name": "PONTIFICIA, REAL, MUY ILUSTRE Y VENERABLE ARCHICOFRADÍA SACRAMENTAL Y SERÁFICA DE NUESTRO PADRE JESÚS ORANDO EN EL HUERTO, NUESTRA SEÑORA DE LA CONCEPCIÓN, SAN JUAN EVANGELISTA Y NUESTRA SEÑORA DE LA OLIVA",
         "church": "Parroquia de Los Santos Mártires Ciriaco y Paula (Centro)",
         "itinerary": "Casa Hermandad, Plazuela Virgen de la Concepción, Padre Jorge Lamothe, Plaza de la Religiosa Filipense Dolores Márquez, Pasillo de Santo Domingo, Plaza Fray Alonso de Santo Tomás, Plaza de La Legión Española, San Jacinto, Puente de la Esperanza, Atarazanas, Plaza de Arriola, Sagasta, Plaza de Félix Sáenz, Nueva, Especerías, Plaza de la Constitución, Larios, Martínez, Atarazanas, towergorda, Alameda Principal, Plaza de la Marina, Molina Lario, tower Sur, Strachan, tower de Sandoval, Bolsa, Marín García, Mesón de Vélez, Antonio Baena Gómez, Martínez, Atarazanas, Puente de la Esperanza, Plaza Fray Alonso de Santo Tomás, Plaza de la Religiosa Filipense Dolores Márquez, Padre Jorge Lamothe, Plazuela Virgen de la Concepción, Casa Hermandad.",
         "datetimes": {
@@ -95,7 +95,7 @@
         }
       },
       {
-        "name": "FERVOROSA Y MUY ILUSTRE HERMANDAD DE NUESTRO PADRE JESÚS DEL PRENDIMIENTO Y MARÍA SANTÍSIMA DEL GRAN PERDÓN.",
+        "name": "FERVOROSA Y MUY ILUSTRE HERMANDAD DE NUESTRO PADRE JESÚS DEL PRENDIMIENTO Y MARÍA SANTÍSIMA DEL GRAN PERDÓN",
         "church": "Parroquia de La Divina Pastora (Barrio de Capuchinos)",
         "itinerary": "Casa Hermandad, San Millán, Plaza Maestro Artola, Miguel Bueno Lara, Alameda de Capuchinos, Plaza de Capuchinos, Capuchinos, Cruz del Molinillo, Ollerías, Carretería, Puerta Nueva, Compañía, Fajardo, Cisneros, Especerías, Plaza de la Constitución, Tribuna, Larios, Martínez, Atarazanas, towergorda, Alameda, Plaza de la Marina, Molina Lario, Plaza del Obispo, Plaza del Siglo, Plaza del Carbón, Calderería, Plaza de Uncibay, Casapalma, Cárcer, Plaza Jerónimo Cuervo, Ramos Marín, Frailes, Refino, Carrión, Hermosilla, San Millán, Casa Hermandad.",
         "datetimes": {
@@ -110,7 +110,7 @@
   "lunes-santo": {
     "brotherhoods": [
       {
-        "name": "FERVOROSA HERMANDAD DE CULTO Y PROCESIÓN DEL SANTÍSIMO CRISTO DE LA CRUCIFIXIÓN Y MARÍA SANTÍSIMA DEL MAYOR DOLOR EN SU SOLEDAD.",
+        "name": "FERVOROSA HERMANDAD DE CULTO Y PROCESIÓN DEL SANTÍSIMO CRISTO DE LA CRUCIFIXIÓN Y MARÍA SANTÍSIMA DEL MAYOR DOLOR EN SU SOLEDAD",
         "church": "Parroquia del Buen Pastor (Barrio de Capuchinos)",
         "itinerary": "Casa Hermandad, Negros, Cruz Verde, Refino, Peña, Mariblanca, Álamos, Plaza del Teatro, Tejón y Rodríguez, Comedias, Nosquera, Carretería, Puerta Nueva, Fajardo, Cisneros, Especerías, Plaza de la Constitución, Tribuna, Larios, Martínez, Atarazanas, Torregorda, Alameda, Plaza de la Marina, Molina Lario, Estación de Penitencia en la S.I.C.B., Patio de los Naranjos, Císter, San Agustín, Echegaray, Granada, Plaza de la Merced, Álamos, Mariblanca, Peña, Refino, Carrión, Casa Hermandad.",
         "datetimes": {
@@ -122,11 +122,11 @@
         }
       },
       {
-        "name": "REAL, MUY ILUSTRE Y VENERABLE ARCHICOFRADÍA SACRAMENTAL Y DE NAZARENOS DE NUESTRO PADRE JESÚS DE LA PASIÓN Y MARÍA SANTÍSIMA DEL AMOR DOLOROSO.",
+        "name": "REAL, MUY ILUSTRE Y VENERABLE ARCHICOFRADÍA SACRAMENTAL Y DE NAZARENOS DE NUESTRO PADRE JESÚS DE LA PASIÓN Y MARÍA SANTÍSIMA DEL AMOR DOLOROSO",
         "church": "Parroquia de los Santos Mártires Ciriaco y Paula (Centro)",
         "itinerary": "Iglesia de los Santos Mártires, Plaza de los Mártires, Santa Lucía, Plaza de Jesús de la Pasión, Santa Lucía, Granada, Plaza de la Constitución, Tribuna, Larios, Martínez, Atarazanas, Torregorda, Alameda, Plaza de la Marina, Molina Lario, Estación de Penitencia en la S.I.C.B., Patio de los Naranjos, Císter, San Agustín, Granada, Niño de Guevara, José Denis Belgrano, Méndez Núñez, Comedias, Plaza de los Mártires, Iglesia de los Mártires.",
         "datetimes": {
-          "beggining": 1649680800000,
+          "beggining": 1649778000000,
           "tribune": 1649693400000,
           "tower": 1649700600000,
           "cathedral": 1649701200000,
@@ -134,9 +134,9 @@
         }
       },
       {
-        "name": "VENERABLE Y MUY ILUSTRE HERMANDAD Y COFRADÍA DE NAZARENOS DE NUESTRO PADRE JESÚS DE LA COLUMNA Y MARÍA SANTÍSIMA DE LA O.",
+        "name": "VENERABLE Y MUY ILUSTRE HERMANDAD Y COFRADÍA DE NAZARENOS DE NUESTRO PADRE JESÚS DE LA COLUMNA Y MARÍA SANTÍSIMA DE LA O",
         "church": "Parroquia de los Santos Mártires Ciriaco y Paula (Centro)",
-        "itinerary": "Casa Hermandad, Frailes, Peña, Mariblanca, Álamos, Puerta de Buenaventura, Plaza del Teatro, Comedias, Santa Lucía, Granada, Plaza de la Constitución, Tribuna, Larios, Martínez, Atarazanas, Torregorda, Alameda Principal, Plaza de la Marina, Molina Lario, Plaza del Siglo, Granada, Méndez Núñez, Plaza de Uncibay, Casapalma, Cárcer, Álamos, Plaza de la Merced, Merced, Frailes, Casa Hermandad",
+        "itinerary": "Casa Hermandad, Frailes, Peña, Mariblanca, Álamos, Puerta de Buenaventura, Plaza del Teatro, Comedias, Santa Lucía, Granada, Plaza de la Constitución, Tribuna, Larios, Martínez, Atarazanas, Torregorda, Alameda Principal, Plaza de la Marina, Molina Lario, Plaza del Siglo, Granada, Méndez Núñez, Plaza de Uncibay, Casapalma, Cárcer, Álamos, Plaza de la Merced, Merced, Frailes, Casa Hermandad.",
         "datetimes": {
           "beggining": 1649689800000,
           "tribune": 1649695800000,
@@ -147,7 +147,7 @@
       {
         "name": "ANTIGUA COFRADÍA DEL SANTÍSIMO CRISTO DEL PERDÓN Y NUESTRA SEÑORA DE LOS DOLORES",
         "church": "Parroquia de Santo Domingo (Barrio del Perchel)",
-        "itinerary": "Iglesia de Santo Domingo de Guzmán, Plaza Fray Alonso de Santo Tomás, Pasillo de Santo Domingo, Plaza de la Religiosa Filipense Dolores Márquez, Cerrojo, Martinete, Zurradores, Plaza Imagen, Polvorista, Llano de Doña Trinidad, Álvaro de Bazán, Mármoles, Puente de la Aurora, Rampa de la Aurora, Cisneros, Especerías, Plaza de la Constitución, Larios, Martínez, Atarazanas, Torregorda, Alameda Principal, Plaza de la Marina, Molina Lario, Postigo de los Abades, Estación de Penitencia en la S.I.C.B., Patio de los Naranjos, San Agustín, Duque de la Victoria, Plaza del Siglo, Plaza del Carbón, Granada, Plaza de la Constitución, Especerías, Nueva, Plaza de Félix Sáenz, Sagasta, Plaza de Arriola, Atarazanas, Prim, Puente de la Esperanza, Pasillo de Santo Domingo, Plaza Fray Alonso de Santo Tomás, Iglesia de Santo Domingo",
+        "itinerary": "Iglesia de Santo Domingo de Guzmán, Plaza Fray Alonso de Santo Tomás, Pasillo de Santo Domingo, Plaza de la Religiosa Filipense Dolores Márquez, Cerrojo, Martinete, Zurradores, Plaza Imagen, Polvorista, Llano de Doña Trinidad, Álvaro de Bazán, Mármoles, Puente de la Aurora, Rampa de la Aurora, Cisneros, Especerías, Plaza de la Constitución, Larios, Martínez, Atarazanas, Torregorda, Alameda Principal, Plaza de la Marina, Molina Lario, Postigo de los Abades, Estación de Penitencia en la S.I.C.B., Patio de los Naranjos, San Agustín, Duque de la Victoria, Plaza del Siglo, Plaza del Carbón, Granada, Plaza de la Constitución, Especerías, Nueva, Plaza de Félix Sáenz, Sagasta, Plaza de Arriola, Atarazanas, Prim, Puente de la Esperanza, Pasillo de Santo Domingo, Plaza Fray Alonso de Santo Tomás, Iglesia de Santo Domingo.",
         "datetimes": {
           "beggining": 1649690100000,
           "tribune": 1649698800000,
@@ -168,7 +168,7 @@
         }
       },
       {
-        "name": "HERMANDAD DEL SANTÍSIMO CRISTO CORONADO DE ESPINAS Y NUESTRA SEÑORA DE GRACIA Y ESPERANZA.",
+        "name": "HERMANDAD DEL SANTÍSIMO CRISTO CORONADO DE ESPINAS Y NUESTRA SEÑORA DE GRACIA Y ESPERANZA",
         "church": "Iglesia del Santo Cristo (Centro)",
         "itinerary": "Casa Hermandad, Alcazabilla, Plaza de la Aduana, Císter, Plaza del Obispo, Molina Lario, Plaza del Siglo, Granada, Plaza del Carbón, Calderería, Plaza de Uncibay, Méndez Núñez, Plaza del Teatro, Tejón y Rodríguez, Carretería, Tribuna de los Pobres, Puerta Nueva, Fajardo, Cisneros, Especerías, Plaza de la Constitución, Larios, Martínez, Atarazanas, Torregorda, Alameda, Plaza de la Marina, Molina Lario, Torre Sur, Plaza del Obispo, Molina Lario, Santa María, Císter, Plaza de la Aduana, Alcazabilla, Casa Hermandad.",
         "datetimes": {
@@ -183,9 +183,9 @@
   "martes-santo": {
     "brotherhoods": [
       {
-        "name": "REAL, ILUSTRE Y VENERABLE HERMANDAD SACRAMENTAL DE NUESTRO PADRE JESÚS NAZARENO DE LOS PASOS EN EL MONTE CALVARIO Y MARÍA SANTÍSIMA DEL ROCIO CORONADA.",
+        "name": "REAL, ILUSTRE Y VENERABLE HERMANDAD SACRAMENTAL DE NUESTRO PADRE JESÚS NAZARENO DE LOS PASOS EN EL MONTE CALVARIO Y MARÍA SANTÍSIMA DEL ROCIO CORONADA",
         "church": "Parroquia de San Lázaro (Barrio de la Victoria)",
-        "itinerary": "Casa Hermandad, Párroco Ruiz Furest, Altozano, Cruz Verde, Peña, Mariblanca, Tejón y Rodríguez, Carretería, Tribuna de los Pobres, Puerta Nueva, Compañía, Fajardo, Cisneros, Especerías, Tribuna, Larios, Martínez, Puerta del Mar, Atarazanas, Torregorda, Alameda Principal, Plaza de la Marina, Molina Lario, Torre Sur, Santa María, San Agustín, Echegaray, Méndez Núñez, Casapalma, Cárcer, Álamos, Plaza de la Merced, Victoria, Plaza de la Victoria, Cristo de la Epidemia, Puerto Parejo, Párroco Ruiz Furest, Casa Hermandad",
+        "itinerary": "Casa Hermandad, Párroco Ruiz Furest, Altozano, Cruz Verde, Peña, Mariblanca, Tejón y Rodríguez, Carretería, Tribuna de los Pobres, Puerta Nueva, Compañía, Fajardo, Cisneros, Especerías, Tribuna, Larios, Martínez, Puerta del Mar, Atarazanas, Torregorda, Alameda Principal, Plaza de la Marina, Molina Lario, Torre Sur, Santa María, San Agustín, Echegaray, Méndez Núñez, Casapalma, Cárcer, Álamos, Plaza de la Merced, Victoria, Plaza de la Victoria, Cristo de la Epidemia, Puerto Parejo, Párroco Ruiz Furest, Casa Hermandad.",
         "datetimes": {
           "beggining": 1649768400000,
           "tribune": 1649778000000,
@@ -194,7 +194,7 @@
         }
       },
       {
-        "name": "VENERABLE HERMANDAD DE LA CARIDAD DE NUESTRO SEÑOR Y COFRADÍA DE NAZARENOS DEL SANTÍSIMO CRISTO DE LA AGONÍA, MARÍA SANTÍSIMA DE LAS PENAS, REINA Y MADRE Y SANTO DOMINGO DE LA CALZADA.",
+        "name": "VENERABLE HERMANDAD DE LA CARIDAD DE NUESTRO SEÑOR Y COFRADÍA DE NAZARENOS DEL SANTÍSIMO CRISTO DE LA AGONÍA, MARÍA SANTÍSIMA DE LAS PENAS, REINA Y MADRE Y SANTO DOMINGO DE LA CALZADA",
         "church": "Oratorio de Santa María Reina y Madre (Centro)",
         "itinerary": "Oratorio de Santa María Reina y Madre Plazuela Virgen de las Penas, Pozos Dulces, Compañía, Fajardo, Cisneros, Especerías, Plaza de la Constitución, Tribuna, Larios, Martínez, Atarazanas, Torregorda, Alameda Principal, Rotonda Marqués de Larios, Plaza de la Marina, Molina Lario, Estación de Penitencia en la S.I.C.B., Patio de los Naranjos, Císter, San Agustín, Plazuela de Jesús Castellanos, Granada, Méndez Núñez, Plaza de Uncibay, Méndez Núñez, Nosquera, Carretería, Andrés Pérez, Arco de la Cabeza, Plazuela Virgen de las Penas, Oratorio de Santa María Reina y Madre.",
         "datetimes": {
@@ -208,7 +208,7 @@
       {
         "name": "ILUSTRE Y VENERABLE HERMANDAD DE LA ORDEN DE SANTO DOMINGO DE GUZMÁN DE NUESTRO PADRE JESÚS DE LA HUMILLACIÓN Y PERDÓN Y MARÍA SANTÍSIMA DE LA ESTRELLA",
         "church": "Parroquia de Santo Domingo (Barrio del Perchel)",
-        "itinerary": "Parroquia de Santo Domingo, Plaza Fray Alonso de Santo Tomás, Huerta del Obispo, Agustín Parejo, Llano de Doña Trinidad, Álvaro de Bazán, Mármoles, Puente de la Aurora, Rampa de la Aurora, Cisneros, Especerías, Plaza de la Constitución, Larios, Martínez, Puerta del Mar, Atarazanas, Torregorda, Alameda Principal, Plaza de la Marina, Molina Lario, Torre Sur, Plaza del Obispo, Molina Lario, Plaza del Siglo, Plaza del Carbón, Granada, Plaza de la Constitución, Especerías, Nueva, Plaza de Félix Sáenz, Sagasta, Plaza de Arriola, Hoyo Esparteros, Prim, Puente de la Esperanza, Pasillo de Santo Domingo, Cerrojo, Casa Hermandad",
+        "itinerary": "Parroquia de Santo Domingo, Plaza Fray Alonso de Santo Tomás, Huerta del Obispo, Agustín Parejo, Llano de Doña Trinidad, Álvaro de Bazán, Mármoles, Puente de la Aurora, Rampa de la Aurora, Cisneros, Especerías, Plaza de la Constitución, Larios, Martínez, Puerta del Mar, Atarazanas, Torregorda, Alameda Principal, Plaza de la Marina, Molina Lario, Torre Sur, Plaza del Obispo, Molina Lario, Plaza del Siglo, Plaza del Carbón, Granada, Plaza de la Constitución, Especerías, Nueva, Plaza de Félix Sáenz, Sagasta, Plaza de Arriola, Hoyo Esparteros, Prim, Puente de la Esperanza, Pasillo de Santo Domingo, Cerrojo, Casa Hermandad.",
         "datetimes": {
           "beggining": 1649778300000,
           "tribune": 1649787600000,
@@ -217,7 +217,7 @@
         }
       },
       {
-        "name": "VENERABLE HERMANDAD DE CULTO Y PROCESIÓN DE JESÚS NAZARENO DEL PERDÓN Y MARÍA SANTÍSIMA DE NUEVA ESPERANZA, SAN JOAQUÍN Y SANTA ANA.",
+        "name": "VENERABLE HERMANDAD DE CULTO Y PROCESIÓN DE JESÚS NAZARENO DEL PERDÓN Y MARÍA SANTÍSIMA DE NUEVA ESPERANZA, SAN JOAQUÍN Y SANTA ANA",
         "church": "Parroquia de San Joaquín y Santa Ana (Barrio de Nueva Málaga)",
         "itinerary": "Casa Hermandad, Camino Castillejos, Magistrado Salvador Barberá, Rosa, Carril de Gamarra, Dr. Lazárraga, José María Freuiller, Eduardo San Martín, Eugenio Gross, Cataluña, Pelayo, Martínez Maldonado, Mármoles, Puente de la Aurora, Pasillo de Santa Isabel, Cisneros, Especerías, Plaza de la Constitución, Larios, Martínez, Atarazanas, Torregorda, Alameda Principal, Plaza de la Marina, Molina Lario, Torre Sur, Plaza del Siglo, Plaza del Carbón, Calderería, Méndez Núñez, Tejón y Rodríguez, Carretería, Tribuna de los Pobres, Puerta Nueva, Fajardo, Cisneros, Puente de la Aurora, Ribera del Guadalmedina, Trinidad, Plaza de Bailén, Bailén, Eugenio Gross, Domingo Lozano, Josefa de los Ríos, Lorenzo Silva, Enrique de Egas, Sondalezas, Maestro Pablo Luna, Camino Castillejos, Casa Hermandad.",
         "datetimes": {
@@ -330,7 +330,7 @@
           "beggining": 1649877300000,
           "tribune": 1649884500000,
           "tower": 1649891700000,
-          "finish": 1649935800000
+          "finish": 1649899800000
         }
       }
     ]
@@ -351,7 +351,7 @@
       {
         "name": "MUY ILUSTRE Y VENERABLE HERMANDAD SACRAMENTAL DE NUESTRO PADRE JESÚS NAZARENO DE VIÑEROS, NUESTRA SEÑORA DEL TRASPASO Y SOLEDAD DE VIÑEROS Y SAN LORENZO MÁRTIR",
         "church": "Iglesia Conventual de las R.R.M.M. Dominicas (Centro)",
-        "itinerary": "Iglesia de la Aurora y Divina Providencia, Andrés Pérez, Carretería, Gigantes, Viento, Cobertizo de Malaver, Plaza de los Viñeros (salida tronos), Biedmas, Carretería, Puerta Nueva, Compañía, Fajardo, Cisneros, Especería, Plaza de la Constitución, Tribuna, Marqués de Larios, Martínez, Atarazanas, Torregorda, Alameda Principal, Plaza de la Marina, Molina Lario, Postigo de los Abades, Estación de Penitencia en la S.I.C.B., Patio de los Naranjos, Cister, San Agustín, Duque de la Victoria, Granada, Plaza del Siglo, Plaza del Carbón, Granada, Santa Lucía, Comedias, Tejón y Rodríguez, Carretería, Biedmas, Plaza de los Viñeros y Casa Hermandad",
+        "itinerary": "Iglesia de la Aurora y Divina Providencia, Andrés Pérez, Carretería, Gigantes, Viento, Cobertizo de Malaver, Plaza de los Viñeros (salida tronos), Biedmas, Carretería, Puerta Nueva, Compañía, Fajardo, Cisneros, Especería, Plaza de la Constitución, Tribuna, Marqués de Larios, Martínez, Atarazanas, Torregorda, Alameda Principal, Plaza de la Marina, Molina Lario, Postigo de los Abades, Estación de Penitencia en la S.I.C.B., Patio de los Naranjos, Cister, San Agustín, Duque de la Victoria, Granada, Plaza del Siglo, Plaza del Carbón, Granada, Santa Lucía, Comedias, Tejón y Rodríguez, Carretería, Biedmas, Plaza de los Viñeros y Casa Hermandad.",
         "datetimes": {
           "beggining": 1649949300000,
           "tribune": 1649955600000,
@@ -373,7 +373,7 @@
         }
       },
       {
-        "name": "SERÁFICA HERMANDAD DE LA SANTA CRUZ, SANTÍSIMO CRISTO DE LA VICTORIA Y NUESTRA SEÑORA DE LOS DOLORES EN SU AMPARO Y MISERICORDIA.",
+        "name": "SERÁFICA HERMANDAD DE LA SANTA CRUZ, SANTÍSIMO CRISTO DE LA VICTORIA Y NUESTRA SEÑORA DE LOS DOLORES EN SU AMPARO Y MISERICORDIA",
         "church": "Parroquia de San Felipe Neri (Barrio de Capuchinos – Molinillo)",
         "itinerary": "Iglesia de San Felipe Neri, Plazuela Santísimo Cristo de la Sangre, Gaona, Guerrero, Dos Aceras, Álamos, Carretería, Andrés Pérez, Arco de la Cabeza, Plazuela Virgen de las Penas, Pozos Dulces, Compañía, Fajardo, Cisneros, Especería, Plaza de la Constitución, Tribuna, Marqués de Larios, Martínez, Atarazanas, Torregorda, Alameda Principal, Plaza de la Marina, Molina Lario, Postigo de los Abades, Estación de Penitencia en la S.I.C.B., Patio de los Naranjos, Císter, San Agustín, Plazuela Jesús Castellanos, Granada, Plaza de la Merced, Madre de Dios, Peña, Jinetes, Dos Aceras, Alta, Parras, Plazuela Santísimo Cristo de la Sangre y a su Templo.",
         "datetimes": {
