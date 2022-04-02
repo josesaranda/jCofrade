@@ -11,23 +11,6 @@ ion-toolbar ion-title {
 
 .container {
   padding: 20px;
-
-  section {
-    padding: 10px;
-    border-bottom: 1px solid #efefef;
-  }
-
-  & h1.name {
-    font-size: 26px;
-  }
-
-  & h2.church {
-    font-size: 20px;
-  }
-
-  & p.description {
-    font-size: 16px;
-  }
 }
 
 .schedules {
