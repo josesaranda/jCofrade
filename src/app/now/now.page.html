@@ -15,9 +15,35 @@
   </ion-header>
 
   <div class="container">
-    <div *ngFor="let brotherhood of brotherhoodsNow">
-      {{brotherhood.name}} {{brotherhood.schedule.name}}
-      {{brotherhood.schedule.datetime}}
+    <div class="absolute" *ngIf="brotherhoodsNow.length === 0">
+      <p>
+        En esta sección se mostrarán las cofradias que están procesionando en un
+        punto clave (Salida, Tribuna, Torre sur, Catedral o Encierro) en este
+        mismo momento.
+      </p>
+      <p>Hora actual: <span style="font-weight: bold">{{dateNow}}</span></p>
     </div>
+    <ion-grid *ngIf="brotherhoodsNow.length > 0">
+      <ion-row>
+        <ion-col
+          *ngFor="let brotherhood of brotherhoodsNow"
+          size="12"
+          size-lg="4"
+          size-md="6"
+        >
+          <ion-card>
+            <ion-card-header color="primary">
+              <ion-card-subtitle>
+                {{toHM(brotherhood.schedule.datetime)}}
+              </ion-card-subtitle>
+              <ion-card-title> {{brotherhood.schedule.name}} </ion-card-title>
+            </ion-card-header>
+            <ion-card-content style="margin-top: 15px; font-weight: bold">
+              {{brotherhood.name}}
+            </ion-card-content>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   </div>
 </ion-content>

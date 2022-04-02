@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from 'src/environments/environment';
 import { DBService } from '../db.service';
-import { fakeDB } from '../fake/db';
 import { BrotherHood, DB, Places } from '../model';
+import { toHM } from '../util';
 
 type BrotherHoodNow = {
   name: string
@@ -18,18 +19,33 @@ type BrotherHoodNow = {
 })
 export class NowPage implements OnInit {
   brotherhoodsNow: BrotherHoodNow[] = []
+  dateNow: string
 
   constructor(
     private dbService: DBService
   ) { }
 
   ngOnInit() {
+    let date = this.getDate()
+    this.dateNow = this.toHM(date)
     this.dbService.getDB().subscribe(dataBase => {
-      // const brotherhoods = this.concatBrotherhoods(dataBase)
-      // this.getBrotherhoodsNow(brotherhoods, Date.now())
-      const brotherhoods = this.concatBrotherhoods(fakeDB)
-      this.getBrotherhoodsNow(brotherhoods, 1648827095557 - 1000 * 60 * 3)
+      const brotherhoods = this.concatBrotherhoods(dataBase)
+      this.getBrotherhoodsNow(brotherhoods, date)
+      setInterval(() => {
+        date = this.getDate()
+        this.dateNow = this.toHM(date)
+        this.getBrotherhoodsNow(brotherhoods, date)
+      }, 10000)
     })
+  }
+
+  toHM = toHM
+
+  private getDate() {
+    if (!environment.production) {
+      return 1648827095557 - 1000 * 60 * 3
+    }
+    return Date.now()
   }
 
   private concatBrotherhoods(dataBase: DB) {
