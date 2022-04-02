@@ -3,7 +3,7 @@ import { DB } from "../model";
 export const fakeDB: DB = {
   "domingo-ramos": {
     brotherhoods: [{
-      name: "test beggining domingo", church: "testchurch", itinerary: "testitinerary", datetimes: {
+      name: "REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica).", church: "testchurch", itinerary: "testitinerary", datetimes: {
         beggining: 1648827095557,
         tribune: 1,
         tower: 1,
@@ -13,7 +13,7 @@ export const fakeDB: DB = {
   },
   "lunes-santo": {
     brotherhoods: [{
-      name: "test finish", church: "testchurch", itinerary: "testitinerary", datetimes: {
+      name: "REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica).", church: "testchurch", itinerary: "testitinerary", datetimes: {
         beggining: 1,
         tribune: 1,
         tower: 1,
@@ -23,7 +23,7 @@ export const fakeDB: DB = {
   },
   "martes-santo": {
     brotherhoods: [{
-      name: "test beggining and tribune", church: "testchurch", itinerary: "testitinerary", datetimes: {
+      name: "REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica).", church: "testchurch", itinerary: "testitinerary", datetimes: {
         beggining: 1648827095557,
         tribune: 1648827095557,
         tower: 1,
@@ -33,7 +33,7 @@ export const fakeDB: DB = {
   },
   "miercoles-santo": {
     brotherhoods: [{
-      name: "test beggining and tower", church: "testchurch", itinerary: "testitinerary", datetimes: {
+      name: "REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica).", church: "testchurch", itinerary: "testitinerary", datetimes: {
         beggining: 1648827095557,
         tribune: 1,
         tower: 1648827095557,
@@ -43,7 +43,7 @@ export const fakeDB: DB = {
   },
   "jueves-santo": {
     brotherhoods: [{
-      name: "test beggining and tower 2", church: "testchurch", itinerary: "testitinerary", datetimes: {
+      name: "REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica).", church: "testchurch", itinerary: "testitinerary", datetimes: {
         beggining: 1648827095557,
         tribune: 1,
         tower: 1648827095557,
@@ -53,9 +53,17 @@ export const fakeDB: DB = {
   },
   "viernes-santo": {
     brotherhoods: [{
-      name: "test beggining", church: "testchurch", itinerary: "testitinerary", datetimes: {
+      name: "REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica).", church: "testchurch", itinerary: "testitinerary", datetimes: {
         beggining: 1648827095557,
         tribune: 1,
+        tower: 1,
+        finish: 1,
+      }
+    },
+    {
+      name: "REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica).", church: "testchurch", itinerary: "testitinerary", datetimes: {
+        beggining: 1,
+        tribune: 1648827095557,
         tower: 1,
         finish: 1,
       }
@@ -63,7 +71,7 @@ export const fakeDB: DB = {
   },
   "domingo-resurreccion": {
     brotherhoods: [{
-      name: "test cathedral and finish", church: "testchurch", itinerary: "testitinerary", datetimes: {
+      name: "REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica).", church: "testchurch", itinerary: "testitinerary", datetimes: {
         beggining: 1,
         tribune: 1,
         tower: 1,
