@@ -11,9 +11,9 @@ import { fakeDB } from '../fake/db';
 describe('NowPage', () => {
   let component: NowPage;
   let fixture: ComponentFixture<NowPage>;
-  const mockedDBService = mock(DBService)
+  const mockedDBService = mock(DBService);
 
-  when(mockedDBService.getDB()).thenReturn(of(fakeDB))
+  when(mockedDBService.getDB()).thenReturn(of(fakeDB));
 
   beforeEach(() => {
     TestBed.configureTestingModule({
@@ -37,57 +37,61 @@ describe('NowPage', () => {
   describe("#getBrotherhoodsNow", () => {
     it("Should return desired value", () => {
       const brotherhoods = (component as any).concatBrotherhoods(fakeDB);
-      (component as any).getBrotherhoodsNow(brotherhoods, 1648827095557 - 1000 * 60 * 10)
+      (component as any).getBrotherhoodsNow(brotherhoods, 1648827095557 - 1000 * 60 * 15);
       expect(component.brotherhoodsNow).toEqual([]);
-      (component as any).getBrotherhoodsNow(brotherhoods, 1648827095557 + 1000 * 60 * 10)
+      (component as any).getBrotherhoodsNow(brotherhoods, 1648827095557 + 1000 * 60 * 15);
       expect(component.brotherhoodsNow).toEqual([]);
-      (component as any).getBrotherhoodsNow(brotherhoods, 1648827095557 - 1000 * 60 * 3)
+      (component as any).getBrotherhoodsNow(brotherhoods, 1648827095557 - 1000 * 60 * 3);
       expect(component.brotherhoodsNow).toEqual([
         {
-          name: 'test beggining domingo',
+          name: 'REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica)',
           schedule: { name: 'Salida', datetime: 1648827095557 }
         },
         {
-          name: 'test finish',
+          name: 'REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica)',
           schedule: { name: 'Encierro', datetime: 1648827095557 }
         },
         {
-          name: 'test beggining and tribune',
+          name: 'REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica)',
           schedule: { name: 'Salida', datetime: 1648827095557 }
         },
         {
-          name: 'test beggining and tribune',
+          name: 'REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica)',
           schedule: { name: 'Tribuna', datetime: 1648827095557 }
         },
         {
-          name: 'test beggining and tower',
+          name: 'REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica)',
           schedule: { name: 'Salida', datetime: 1648827095557 }
         },
         {
-          name: 'test beggining and tower',
+          name: 'REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica)',
           schedule: { name: 'Torre sur', datetime: 1648827095557 }
         },
         {
-          name: 'test beggining and tower 2',
+          name: 'REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica)',
           schedule: { name: 'Salida', datetime: 1648827095557 }
         },
         {
-          name: 'test beggining and tower 2',
+          name: 'REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica)',
           schedule: { name: 'Torre sur', datetime: 1648827095557 }
         },
         {
-          name: 'test beggining',
+          name: 'REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica)',
           schedule: { name: 'Salida', datetime: 1648827095557 }
         },
         {
-          name: 'test cathedral and finish',
+          name: 'REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica)',
+          schedule: { name: 'Tribuna', datetime: 1648827095557 }
+        },
+        {
+          name: 'REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica)',
           schedule: { name: 'Catedral', datetime: 1648827095557 }
         },
         {
-          name: 'test cathedral and finish',
+          name: 'REAL COFRADÍA DE NUESTRO PADRE JESÚS A SU ENTRADA A JERUSALÉN Y MARÍA SANTÍSIMA DEL AMPARO Y SAN JUAN EVANGELISTA (Pollinica)',
           schedule: { name: 'Encierro', datetime: 1648827095557 }
         }
-      ])
-    })
-  })
+      ]);
+    });
+  });
 });
