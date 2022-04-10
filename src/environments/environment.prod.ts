@@ -1,3 +1,6 @@
+import { commonEnv } from "./environment.default";
+
 export const environment = {
-  production: true
+  production: true,
+  ...commonEnv
 };
