@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { environment } from 'src/environments/environment';
+import { environment } from '../../environments/environment';
 import { DBService } from '../db.service';
 import { BrotherHood, DB, Places } from '../model';
 import { toHM } from '../util';
@@ -57,10 +57,11 @@ export class NowPage implements OnInit {
   }
 
   private getBrotherhoodsNow(brotherhoods: BrotherHood[], fromDate: number) {
-    const delay = 1000 * 60 * 5 // milliseconds * seconds * minutes
+    const delay = 1000 * 60 * 7; // milliseconds * seconds * minutes
+    this.resetBrotherhoodsNow();
     brotherhoods.forEach(brotherhood => {
       for (let datetimeName in brotherhood.datetimes) {
-        const datetime = brotherhood.datetimes[datetimeName]
+        const datetime = brotherhood.datetimes[datetimeName];
         if ((fromDate >= datetime - delay) && (fromDate <= datetime + delay)) {
           this.brotherhoodsNow.push({
             name: brotherhood.name,
@@ -68,9 +69,13 @@ export class NowPage implements OnInit {
               name: Places["" + datetimeName],
               datetime
             }
-          })
+          });
         }
       }
     })
+  }
+
+  private resetBrotherhoodsNow() {
+    this.brotherhoodsNow = [];
   }
 }
