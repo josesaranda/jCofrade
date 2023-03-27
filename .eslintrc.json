@@ -14,6 +14,24 @@
         "plugin:@angular-eslint/template/process-inline-templates"
       ],
       "rules": {
+        "semi": "off",
+        "@typescript-eslint/semi": "off",
+        "@typescript-eslint/quotes": [
+          "error",
+          "double",
+          {
+            "allowTemplateLiterals": true
+          }
+        ],
+        "@typescript-eslint/member-delimiter-style": [
+          "error",
+          {
+            "multiline": {
+              "delimiter": "none",
+              "requireLast": true
+            }
+          }
+        ],
         "@angular-eslint/component-class-suffix": [
           "error",
           {
