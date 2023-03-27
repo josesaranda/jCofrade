@@ -1,10 +1,10 @@
-import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { IonicModule } from '@ionic/angular';
-import { RouterModule } from '@angular/router';
-import { AboutPage } from './about.page';
-import { APP_BASE_HREF } from '@angular/common';
+import { ComponentFixture, TestBed, waitForAsync } from "@angular/core/testing";
+import { IonicModule } from "@ionic/angular";
+import { RouterModule } from "@angular/router";
+import { AboutPage } from "./about.page";
+import { APP_BASE_HREF } from "@angular/common";
 
-describe('AboutPage', () => {
+describe("AboutPage", () => {
   let component: AboutPage;
   let fixture: ComponentFixture<AboutPage>;
 
@@ -12,7 +12,7 @@ describe('AboutPage', () => {
     TestBed.configureTestingModule({
       declarations: [AboutPage],
       imports: [IonicModule.forRoot(), RouterModule.forRoot([])],
-      providers: [{ provide: APP_BASE_HREF, useValue: '/my/app' }]
+      providers: [{ provide: APP_BASE_HREF, useValue: "/my/app" }]
     }).compileComponents();
 
     fixture = TestBed.createComponent(AboutPage);
@@ -20,7 +20,7 @@ describe('AboutPage', () => {
     fixture.detectChanges();
   }));
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });

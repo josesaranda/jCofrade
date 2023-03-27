@@ -1,8 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import { environment } from '../../environments/environment';
-import { DBService } from '../db.service';
-import { BrotherHood, DB, Places } from '../model';
-import { toHM } from '../util';
+import { Component, OnInit } from "@angular/core";
+import { environment } from "../../environments/environment";
+import { DBService } from "../db.service";
+import { BrotherHood, DB, Places } from "../model";
+import { toHM } from "../util";
 
 type BrotherHoodNow = {
   name: string
@@ -13,13 +13,15 @@ type BrotherHoodNow = {
 }
 
 @Component({
-  selector: 'app-now',
-  templateUrl: './now.page.html',
-  styleUrls: ['./now.page.scss'],
+  selector: "app-now",
+  templateUrl: "./now.page.html",
+  styleUrls: ["./now.page.scss"],
 })
 export class NowPage implements OnInit {
   brotherhoodsNow: BrotherHoodNow[] = []
   dateNow: string
+
+  toHM = toHM
 
   constructor(
     private dbService: DBService
@@ -39,8 +41,6 @@ export class NowPage implements OnInit {
     })
   }
 
-  toHM = toHM
-
   private getDate() {
     if (!environment.production) {
       return 1648827095557 - 1000 * 60 * 3
@@ -50,8 +50,10 @@ export class NowPage implements OnInit {
 
   private concatBrotherhoods(dataBase: DB) {
     let brotherhoods = []
-    for (let day in dataBase) {
-      brotherhoods = brotherhoods.concat(dataBase[day].brotherhoods)
+    for (const day in dataBase) {
+      if (Object.prototype.hasOwnProperty.call(dataBase, day)) {
+        brotherhoods = brotherhoods.concat(dataBase[day].brotherhoods)
+      }
     }
     return brotherhoods
   }
@@ -60,16 +62,18 @@ export class NowPage implements OnInit {
     const delay = 1000 * 60 * 7; // milliseconds * seconds * minutes
     this.resetBrotherhoodsNow();
     brotherhoods.forEach(brotherhood => {
-      for (let datetimeName in brotherhood.datetimes) {
-        const datetime = brotherhood.datetimes[datetimeName];
-        if ((fromDate >= datetime - delay) && (fromDate <= datetime + delay)) {
-          this.brotherhoodsNow.push({
-            name: brotherhood.name,
-            schedule: {
-              name: Places["" + datetimeName],
-              datetime
-            }
-          });
+      for (const datetimeName in brotherhood.datetimes) {
+        if (Object.prototype.hasOwnProperty.call(brotherhood.datetimes, datetimeName)) {
+          const datetime = brotherhood.datetimes[datetimeName];
+          if ((fromDate >= datetime - delay) && (fromDate <= datetime + delay)) {
+            this.brotherhoodsNow.push({
+              name: brotherhood.name,
+              schedule: {
+                name: Places["" + datetimeName],
+                datetime
+              }
+            });
+          }
         }
       }
     })

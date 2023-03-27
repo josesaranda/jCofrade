@@ -1,11 +1,11 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { NgModule } from "@angular/core";
+import { Routes, RouterModule } from "@angular/router";
 
-import { NowPage } from './now.page';
+import { NowPage } from "./now.page";
 
 const routes: Routes = [
   {
-    path: '',
+    path: "",
     component: NowPage
   }
 ];

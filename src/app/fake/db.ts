@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import { DB } from "../model";
 
 export const fakeDB: DB = {

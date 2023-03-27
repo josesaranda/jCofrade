@@ -1,10 +1,10 @@
-import { HttpClient } from '@angular/common/http';
-import { TestBed } from '@angular/core/testing';
-import { mock } from 'ts-mockito';
+import { HttpClient } from "@angular/common/http";
+import { TestBed } from "@angular/core/testing";
+import { mock } from "ts-mockito";
 
-import { DBService } from './db.service';
+import { DBService } from "./db.service";
 
-describe('DbService', () => {
+describe("DbService", () => {
   let service: DBService;
   const mockHttpClient: HttpClient = mock(HttpClient)
 
@@ -18,7 +18,7 @@ describe('DbService', () => {
     service = TestBed.inject(DBService);
   });
 
-  it('should be created', () => {
+  it("should be created", () => {
     expect(service).toBeTruthy();
   });
 });

@@ -1,14 +1,14 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { FormsModule } from "@angular/forms";
 
-import { IonicModule } from '@ionic/angular';
+import { IonicModule } from "@ionic/angular";
 
-import { NowPageRoutingModule } from './now-routing.module';
+import { NowPageRoutingModule } from "./now-routing.module";
 
-import { NowPage } from './now.page';
-import { HttpClientModule } from '@angular/common/http';
-import { DBService } from '../db.service';
+import { NowPage } from "./now.page";
+import { HttpClientModule } from "@angular/common/http";
+import { DBService } from "../db.service";
 
 @NgModule({
   imports: [
