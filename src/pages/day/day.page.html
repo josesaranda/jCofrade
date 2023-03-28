@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ dayName }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">{{ dayName }}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="container" *ngIf="day">
+    <section *ngFor="let brotherhood of day.brotherhoods">
+      <h1 class="name">{{ brotherhood.name }}</h1>
+      <h2 class="church">{{ brotherhood.church }}</h2>
+      <p class="description">{{ brotherhood.itinerary }}</p>
+      <div class="schedules">
+        <app-schedule-card
+          [datetime]="brotherhood.datetimes.beggining"
+          [place]="places.beggining"
+        ></app-schedule-card>
+        <app-schedule-card
+          [datetime]="brotherhood.datetimes.tribune"
+          [place]="places.tribune"
+        ></app-schedule-card>
+        <app-schedule-card
+          [datetime]="brotherhood.datetimes.tower"
+          [place]="places.tower"
+        ></app-schedule-card>
+        <app-schedule-card
+          *ngIf="brotherhood.datetimes.cathedral"
+          [datetime]="brotherhood.datetimes.cathedral"
+          [place]="places.cathedral"
+        ></app-schedule-card>
+        <app-schedule-card
+          *ngIf="brotherhood.datetimes.finish"
+          [datetime]="brotherhood.datetimes.finish"
+          [place]="places.finish"
+        ></app-schedule-card>
+      </div>
+    </section>
+  </div>
+</ion-content>
