@@ -1,0 +1,19 @@
+.schedule {
+  margin: 2px;
+  display: inline-block;
+  font-weight: bold;
+
+  .datetime {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid var(--ion-color-primary);
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .place {
+    color: var(--ion-color-primary-contrast);
+    background: var(--ion-color-primary);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+  }
+}

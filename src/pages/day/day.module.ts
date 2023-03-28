@@ -8,7 +8,8 @@ import { DayPageRoutingModule } from "./day-routing.module";
 
 import { DayPage } from "./day.page";
 import { HttpClientModule } from "@angular/common/http";
-import { DBService } from "../db.service";
+import { DBService } from "@services/db.service";
+import { ScheduleCardModule } from "@components/schedule-card/schedule-card.module";
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { DBService } from "../db.service";
     FormsModule,
     IonicModule,
     DayPageRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    ScheduleCardModule
   ],
   providers: [DBService],
   declarations: [DayPage]

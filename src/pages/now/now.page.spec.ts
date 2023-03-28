@@ -4,10 +4,10 @@ import { IonicModule } from "@ionic/angular";
 import { RouterModule } from "@angular/router";
 import { NowPage } from "./now.page";
 import { APP_BASE_HREF } from "@angular/common";
-import { DBService } from "../db.service";
+import { DBService } from "@services/db.service";
 import { instance, mock, when } from "ts-mockito"
 import { of } from "rxjs";
-import { fakeDB } from "../fake/db";
+import { fakeDB } from "@services/fake/db";
 
 describe("NowPage", () => {
   let component: NowPage;

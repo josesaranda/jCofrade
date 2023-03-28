@@ -1,8 +1,8 @@
 import { Component, OnInit } from "@angular/core";
 import { environment } from "../../environments/environment";
-import { DBService } from "../db.service";
-import { BrotherHood, DB, Places } from "../model";
-import { toHM } from "../util";
+import { DBService } from "@services/db.service";
+import { BrotherHood, DB, Places } from "@services/model";
+import { toHM } from "@utils/utils";
 
 type BrotherHoodNow = {
   name: string

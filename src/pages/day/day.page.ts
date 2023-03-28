@@ -1,8 +1,8 @@
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
-import { DB, Day, Days } from "../model";
-import { DBService } from "../db.service";
-import { toHM } from "../util";
+import { DB, Day, Days, Places } from "@services/model";
+import { DBService } from "@services/db.service";
+import { toHM } from "@utils/utils";
 
 @Component({
   selector: "app-day",
@@ -15,6 +15,7 @@ export class DayPage implements OnInit {
   day: Day
 
   toHM = toHM
+  places = Places
 
   constructor(
     private activatedRoute: ActivatedRoute,
