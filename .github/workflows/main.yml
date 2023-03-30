@@ -1,25 +1,81 @@
-name: build and deploy
+name: Node.js CI
 
 on:
   push:
-    branches: [main]
-jobs:
-  build:
-    runs-on: ubuntu-latest
+    branches:
+      - "*"
+  pull_request:
+    branches:
+      - "*"
 
+jobs:
+  install-dependencies:
     strategy:
       matrix:
-        node-version: [16]
-
+        node-version: [16.x]
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Cache node modules
+        uses: actions/cache@v3
         with:
-          node-version: ${{ matrix.node-version }}
-      - run: npm ci
-      - run: npm run build --if-present -- --configuration=production
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+      - name: Install dependencies
+        run: npm ci
 
+  build:
+    strategy:
+      matrix:
+        node-version: [16.x]
+    runs-on: ubuntu-latest
+    needs: install-dependencies
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Use cached node modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+      - name: Build project
+        run: npm run build --if-present -- --configuration=production
+      - name: Cache www folder
+        uses: actions/cache@v3
+        with:
+          path: www
+          key: ${{ runner.os }}-node-www
+
+  test:
+    strategy:
+      matrix:
+        node-version: [16.x]
+    runs-on: ubuntu-latest
+    needs: install-dependencies
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Use cached node modules
+        uses: actions/cache@v3
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+      - name: Run tests
+        run: npm test
+
+  deploy:
+    needs: [build, test]
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Use cached www folder
+        uses: actions/cache@v3
+        with:
+          path: www
+          key: ${{ runner.os }}-node-www
       - name: deploy
         uses: garygrossgarten/github-action-scp@release
         with:
